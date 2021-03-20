@@ -1,3 +1,5 @@
 # vue-superpowers
 
-Demoing Vue superpowers - check it out [here](https://www.youtube.com/c/przeprogramowani)
+![](https://vuejs.org/images/logo.png)
+
+## Demoing Vue superpowers - check it out [here](https://www.youtube.com/c/przeprogramowani)
