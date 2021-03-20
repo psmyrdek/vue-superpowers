@@ -1,4 +1,9 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import registerAds from './components/ads/helpers/register-ads'
 
-createApp(App).mount('#app')
+const app = createApp(App)
+
+registerAds(app);
+
+app.mount('#app')

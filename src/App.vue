@@ -1,26 +1,24 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ComponentProps />
+  <ComponentForms />
+  <ComponentInstances />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ComponentProps from './components/ComponentProps.vue'
+import ComponentForms from './components/ComponentForms.vue'
+import ComponentInstances from './components/ComponentInstances.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ComponentProps,
+    ComponentForms,
+    ComponentInstances
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
